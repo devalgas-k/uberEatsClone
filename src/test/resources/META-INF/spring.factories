@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = com.ubereats.clone.\
+    config.TestContainersSpringContextCustomizerFactory,com.ubereats.clone.\
+    config.SqlTestContainersSpringContextCustomizerFactory
