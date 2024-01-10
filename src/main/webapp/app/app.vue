@@ -26,6 +26,6 @@
 </template>
 
 <script lang="ts" src="./app.component.ts"></script>
-<style scoped>
+<style lang="scss" scoped>
 @import url('/content/css/fix-footer.css');
 </style>
