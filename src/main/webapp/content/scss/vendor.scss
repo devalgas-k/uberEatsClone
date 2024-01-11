@@ -6,6 +6,7 @@ eg $input-color: red;
 ****************************/
 // Override Boostrap variables
 // Import Bootstrap source files from node_modules
+@import '_bootstrap-variables';
 @import 'bootswatch/dist/litera/variables';
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-vue/src/index.scss';
