@@ -61,6 +61,8 @@ let config = defineConfig({
     APP_VERSION: `"${process.env.APP_VERSION ? process.env.APP_VERSION : 'DEV'}"`,
   },
   server: {
+    host: true,
+    port: 9000,
     proxy: Object.fromEntries(
       ['/api', '/management', '/v3/api-docs'].map(res => [
         res,
