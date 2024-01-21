@@ -24,6 +24,23 @@ const pinia = createPinia();
 
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
+
+/*
+* PrimeVue + Material Icons
+*--------------------------------
+* https://stackoverflow.com/questions/60351266/how-to-add-primevue-css-files-to-jhipster-project
+* https://www.primefaces.org/designer/api/primevue/3.9.0/
+* https://primevue.org/icons/
+* https://developers.google.com/fonts/docs/material_icons
+* https://fonts.google.com/icons
+*--------------------------------
+*/
+import 'primevue/resources/primevue.min.css';
+import 'primeicons/primeicons.css';
+import 'primevue/resources/themes/bootstrap4-light-purple/theme.css';
+
+import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
 initBootstrapVue(Vue);
 
 Vue.configureCompat({
