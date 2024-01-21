@@ -107,6 +107,7 @@
     "deepmerge": "4.3.1",
     "js-cookie": "3.0.5",
     "pinia": "2.1.7",
+    "primevue": "^3.46.0",
     "rxjs": "7.4.0",
     "sockjs-client": "1.5.2",
     "vue": "3.3.11",
