@@ -1,6 +1,7 @@
 {
   "global": {
-    "title": "UberEatsClone",
+    "title": "Uber",
+    "titleNext": "Eats",
     "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
     "menu": {
       "home": "Accueil",
@@ -16,7 +17,8 @@
         "sessions": "Sessions",
         "login": "S'authentifier",
         "logout": "Déconnexion",
-        "register": "Créer un compte"
+        "register": "Créer un compte",
+        "inscription": "Inscription"
       },
       "admin": {
         "main": "Administration",
@@ -30,7 +32,8 @@
         "database": "Base de données",
         "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
       },
-      "language": "Langue"
+      "language": "Langue",
+      "connexion": "Connexion"
     },
     "form": {
       "username.label": "Nom d'utilisateur",

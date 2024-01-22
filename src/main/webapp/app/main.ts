@@ -38,8 +38,11 @@ const pinia = createPinia();
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 import 'primevue/resources/themes/bootstrap4-light-purple/theme.css';
+import Button from 'primevue/button';
 
-import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+Vue.component('p-button', Button);
+
+// import 'https://fonts.googleapis.com/icon?family=Material+Icons';
 
 initBootstrapVue(Vue);
 
